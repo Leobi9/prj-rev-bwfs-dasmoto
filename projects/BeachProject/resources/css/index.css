@@ -1,0 +1,46 @@
+* {
+  font-family: Helvetica, Arial, sans-serif;
+}
+
+h1,
+h2 {
+  color: darkGreen;
+  text-align: center;
+}
+
+h3 {
+  color: SeaGreen;
+  text-align: center;
+}
+
+p,
+li {
+  font-size: 18px;
+  text-align: center;
+}
+
+a {
+  text-decoration: none;
+}
+
+.grid {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  padding-top: 25px;
+  padding-bottom: 25px;
+  margin-bottom: 25px;
+  justify-items: center;
+  align-items: center;
+}
+
+img {
+  display: block;
+  margin: 0 auto;
+}
+
+#a, #b, #c, #d {
+  border-radius: 5px;
+  border-style: solid;
+  padding: 10px 20px 10px 20px;
+  background-color: azure;
+}
